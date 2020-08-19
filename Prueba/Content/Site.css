@@ -1,0 +1,62 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*estilo para el layout*/
+.topnav {
+    background: linear-gradient(to right, rgba(202, 0, 61, 1), rgba(124, 65, 130, 1));
+    overflow: hidden;
+    z-index: 1;
+}
+/*estilo para letras*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*layout a la derecha*/
+.topnav-right {
+    float: right;
+    display:block;
+}
+/*espacio en layput*/
+div {
+    display:block;
+}
+/*icono de registro*/
+.row-icon-accion{
+	height: 130px;
+	/*border:2px solid #000000;*/
+}
+/*banner de la imagen*/
+.banner{
+background-size:cover;
+padding-top:11%;
+padding-bottom:0%;
+position:relative;
+background-position:center;
+}
